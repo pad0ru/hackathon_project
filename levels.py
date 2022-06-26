@@ -1,3 +1,4 @@
+#test123445567674u9342u9043270492384902389048
 from matplotlib import offsetbox
 import pygame
 from settings import *
@@ -22,7 +23,7 @@ class Level:
                     self.player = Player((x, y), [self.visible_sprites], self.obstacles_sprites)
     
     
-    #test123445567674u9342u9043270492384902389048
+    
     def run(self):
         #update and draw the game
         self.visible_sprites.custom_draw(self.player)
